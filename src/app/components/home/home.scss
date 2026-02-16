@@ -1,5 +1,5 @@
 
-@import "../../../color-variables.scss";
+@use "../../../color-variables.scss" as *;
 
 main{
     display: flex;
@@ -64,6 +64,12 @@ main{
 
         }
     }
+}
+
+.cta-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 @media (min-width: 1080px) {
