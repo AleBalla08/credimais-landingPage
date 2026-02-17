@@ -1,0 +1,67 @@
+@use "../../../color-variables.scss" as *;
+
+.about_us_cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background: -webkit-linear-gradient(180deg, $secondary-color, $dark-primary);
+    padding: 3rem 1.5rem;
+    max-width: 100%;
+    gap: 20px;
+
+    .title {
+        text-align: justify;
+        width: 100%;
+        color: $primary-text;
+
+        h1 {
+            margin: 0;
+            font-size: 72px;
+            line-height: 0.75;
+            font-weight: 700;
+        }
+    }
+
+    .text {
+        width: 100%;
+        text-align: justify;
+
+        p {
+            margin: 0;
+            font-size: 20px;
+            line-height: 1.5;
+            font-weight: 400;
+        }
+    }
+}
+
+@media (min-width: 1080px) {
+    .about_us_cont {
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 6rem 8rem;
+
+        .title {
+            width: 40%;
+            
+            h1 {
+                font-size: 158px;
+                line-height: 0.75;
+                font-weight: 700;
+            }
+        }
+
+        .text {
+            width: 50%;
+
+            p {
+                margin: 0;
+                font-size: 24px;
+                line-height: 1.6;
+                font-weight: 400;
+            }
+            
+        }
+    }
+}
