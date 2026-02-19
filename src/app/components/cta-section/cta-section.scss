@@ -1,0 +1,27 @@
+@use "../../../color-variables.scss" as *;
+
+.cta_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+    padding: 0 1em;
+    line-height: 1.6;
+
+    .cta_title {
+        color: $primary-text;
+        font-size: 26px;
+    }
+}
+
+@media (min-width: 1080px) {
+    .cta_container {
+        padding: 1em 10em;
+        .cta_title {
+            color: $primary-text;
+            font-size: 42px;
+        }
+    }
+}

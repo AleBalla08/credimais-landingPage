@@ -1,13 +1,13 @@
 <app-header></app-header>
 <main>
-    <section class="main-section">
+    <section id="main-section">
         <div class="headline">
             <span>Credimais securitizadora S.A.</span>
             <h1>A securitizadora que você procura para o seu negócio.</h1>
         </div>
         <img ngSrc="/assets/pessoas-notebook.png" priority width="1000" height="700">
     </section>
-    <section class="benefit-section">
+    <section id="benefit-section">
         <div class="benefit-data">
             <h2>
                 80% das <br/>
@@ -16,13 +16,20 @@
         </div>
         <p>têm capital parado em recebíveis — poucas sabem transformar isso em <b>crescimento.</b></p>
     </section>
-    <section class="cta-section">
+    <section id="button-section">
         <btn-primary 
             btn-text="Fale com a nossa equipe"
             (clicked)="callWhatsapp()">
         </btn-primary>
     </section>
-    <section class="about_us">
+    <section id="about_us">
         <app-about-us></app-about-us>
     </section>
+    <section id="extra-infos">
+        <app-extra-infos></app-extra-infos>
+    </section>
+    <section id="cta-section">
+        <app-cta-section></app-cta-section>
+    </section>
+    <app-footer></app-footer>
 </main>

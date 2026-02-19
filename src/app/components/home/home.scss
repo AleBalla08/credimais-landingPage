@@ -7,7 +7,7 @@ main{
     gap: 84px;
 }
 
-.main-section {
+#main-section {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -34,7 +34,7 @@ main{
     }
 }
 
-.benefit-section {
+#benefit-section {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -73,20 +73,32 @@ main{
     }
 }
 
-.cta-section {
+#button-section {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.about_us {
+#about_us {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#extra-infos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#cta-section {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 @media (min-width: 1080px) {
-    .main-section {
+    #main-section {
         flex-direction: row;
         padding: 0 6em;
 
@@ -103,7 +115,7 @@ main{
         }
     }
 
-    .benefit-section {
+    #benefit-section {
         flex-direction: row;
         padding: 0 6em;
 

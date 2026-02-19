@@ -3,10 +3,14 @@ import { Header } from '../header/header';
 import { NgOptimizedImage } from '@angular/common';
 import { BtnPrimary } from '../btn-primary/btn-primary';
 import { AboutUs } from '../about-us/about-us';
+import { ExtraInfos } from '../extra-infos/extra-infos';
+import { CtaSection } from '../cta-section/cta-section';
+import { Footer } from '../footer/footer';
 
 @Component({
   selector: 'app-home',
-  imports: [Header, NgOptimizedImage, BtnPrimary, AboutUs],
+  standalone: true,
+  imports: [Header, NgOptimizedImage, BtnPrimary, AboutUs, ExtraInfos, CtaSection, Footer],
   templateUrl: './home.html',
   styleUrl: './home.scss',
 })
