@@ -3,20 +3,21 @@
 .about_us_cont {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    align-items: center;
     text-align: center;
-    background: -webkit-linear-gradient(180deg, $secondary-color, $dark-primary);
-    padding: 3rem;
-    max-width: 100%;
+    background: linear-gradient(180deg, $secondary-color, $dark-primary);
+    padding: 2rem 1.5rem;
     gap: 20px;
-
+    width: 100%;
+    max-width: 1100px;
+    
     .title {
         width: 100%;
         color: $primary-text;
 
         h1 {
             margin: 0;
-            font-size: 72px;
+            font-size: clamp(36px, 10vw, 72px);
             line-height: 1;
             font-weight: 700;
         }
@@ -24,13 +25,11 @@
 
     .text {
         width: 100%;
-        text-align: center;
-
+        
         p {
             margin: 0;
-            font-size: 20px;
+            font-size: clamp(16px, 4vw, 20px);
             line-height: 1.5;
-            font-weight: 400;
         }
     }
 }
@@ -48,7 +47,7 @@
             width: 40%;
             
             h1 {
-                font-size: 158px;
+                font-size: clamp(72px, 10vw, 158px);
                 line-height: 0.85;
                 font-weight: 700;
             }
