@@ -5,10 +5,19 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
 }
 
 body {
     background-color: #0E2958;
+}
+
+html, body {
+  overflow-x: hidden;
 }
