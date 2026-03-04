@@ -39,7 +39,7 @@
 }
 
 .icons a {
-  font-size: 22px;
+  font-size: clamp(14px, 5vw, 24px);
   color: $secondary-text;
   margin-right: 15px;
   transition: 0.3s;
@@ -55,6 +55,6 @@
   text-align: center;
   border-top: 1px solid $secondary-text;
   padding-top: 15px;
-  font-size: 14px;
+  font-size: clamp(10px, 1.5vw, 14px);
   color: #aaa;
 }

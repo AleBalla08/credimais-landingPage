@@ -15,7 +15,7 @@
 
         h1 {
             margin: 0;
-            font-size: clamp(36px, 10vw, 72px);
+            font-size: clamp(42px, 10vw, 72px);
             line-height: 1;
             font-weight: 700;
         }
@@ -26,13 +26,13 @@
         
         p {
             margin: 0;
-            font-size: clamp(16px, 4vw, 20px);
+            font-size: clamp(16px, 4vw, 24px);
             line-height: 1.5;
         }
     }
 }
 
-@media (min-width: 1080px) {
+@media (min-width: 1580px) {
     .about_us_cont {
         flex-direction: row;
         align-items: flex-start;
@@ -57,7 +57,7 @@
 
             p {
                 margin: 0;
-                font-size: 24px;
+                font-size: clamp(14px, 5vw, 24px);
                 line-height: 1.6;
                 font-weight: 400;
             }

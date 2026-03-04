@@ -12,16 +12,16 @@
 
     .cta_title {
         color: $primary-text;
-        font-size: 26px;
+        font-size: camp(20px, 4vw, 26px);
     }
 }
 
-@media (min-width: 1080px) {
+@media (min-width: 1560px) {
     .cta_container {
         padding: 1em 10em;
         .cta_title {
             color: $primary-text;
-            font-size: 42px;
+            font-size: clamp(24px, 6vw, 42px);
         }
     }
 }

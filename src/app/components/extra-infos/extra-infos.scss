@@ -23,12 +23,12 @@
 
         h3 {
             color: $primary-text;
-            font-size: 28px;
+            font-size: clamp(20px, 4vw, 28px);
         }
 
         p {
             color: $secondary-text;
-            font-size: 20px;
+            font-size: clamp(12px, 2.5vw, 20px);
             font-weight: 400;
             line-height: 1.5;
             max-width: 700px;
@@ -36,7 +36,7 @@
     }
 }
 
-@media (min-width: 1080px) {
+@media (min-width: 1560px) {
     .imagens-container {
         flex-direction: row;
         gap: 80px;
@@ -48,12 +48,12 @@
 
             h3 {
                 color: $primary-text;
-                font-size: 32px;
+                font-size: clamp(22px, 4vw, 32px);
             }
 
             p {
                 color: $secondary-text;
-                font-size: 16px;
+                font-size: clamp(10px, 2.5vw, 16px);
                 font-weight: 400;
                 line-height: 1.5;
                 max-width: 100%;
